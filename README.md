@@ -10,6 +10,11 @@ The objective of this small project is to build a **Linux firewall** (On Virtual
 - [Host-Only Network - static IP addresses on Mac OS X](https://gist.github.com/aelkz/ae15e9b281ea2d8b0454ab86b21e84e9)
 ### Linux Network
 - [How to Turn a Linux Server into a Router to Handle Traffic Statically and Dynamically – Part 10](https://www.tecmint.com/setup-linux-as-router/)
+
+### iptables on Linux 
+- [iptables(8) - Linux man page](https://linux.die.net/man/8/iptables)
+- [Iptables Tutorial](http://homes.di.unimi.it/sisop/qemu/iptables-tutorial.pdf) > Book , it's very useful & organized well!
+
 ## Note: 
 Scripts/Code/Documents ..etc will be uploaded after submitting the project to the instructor to avoid cheating
 
