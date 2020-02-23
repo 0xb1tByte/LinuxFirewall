@@ -18,6 +18,7 @@ The objective of this small project is to build a **Linux firewall** (On Virtual
 - [Linux Firewall Tutorial: IPTables Tables, Chains, Rules Fundamentals](https://www.thegeekstuff.com/2011/01/iptables-fundamentals/)
 - [Per-IP rate limiting with iptables](https://making.pusher.com/per-ip-rate-limiting-with-iptables/)
 - [How to Log Linux IPTables Firewall Dropped Packets to a Log File](https://www.thegeekstuff.com/2012/08/iptables-log-packets/)
+- [Linux Iptables Avoid IP Spoofing And Bad Addresses Attacks](https://www.cyberciti.biz/tips/linux-iptables-8-how-to-avoid-spoofing-and-bad-addresses-attack.html)
 
 ### 2.4 - RFCs
 - [RFC 1918](https://tools.ietf.org/html/rfc1918)
