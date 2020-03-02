@@ -1,7 +1,7 @@
 #!/bin/bash
 
-iptablesPATH=”/sbin/iptables”
-iptablesSavePATH=”/sbin/iptables-save”
+iptablesPATH="/sbin/iptables"
+iptablesSavePATH="/sbin/iptables-save"
 
 # flush all chains
 $iptablesPATH -F 
