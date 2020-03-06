@@ -12,7 +12,7 @@ $iptablesPATH -F
 
 # Create a new chain called LOGGING
 $iptablesPATH -N LOGGING
-$iptablesPATH -A LOGGING -j LOG -m hashlimit --hashlimit 1/sec --hashlimit-mode dstip,dstport,srcip,srcport --hashlimit-name hosts --log-prefix "LOGDROPPED: Connection to 80 dropped" --log-level 6
+$iptablesPATH -A LOGGING -j LOG -m hashlimit --hashlimit 1/sec --hashlimit-mode dstport,srcip --hashlimit-name hosts --log-prefix "LOGDROPPED: Connection to 80 dropped" --log-level 6
 $iptablesPATH -A LOGGING -j DROP
 
  # Block incoming connection to 192.168.101.2 on port 80 
