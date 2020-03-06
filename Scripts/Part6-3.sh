@@ -11,7 +11,7 @@ $iptablesPATH -F
 
 # Create a new chain called LOGGING2
 $iptablesPATH -N LOGGING2
-$iptablesPATH -A LOGGING2 -j LOG -m hashlimit --hashlimit 1/sec --hashlimit-mode dstport,srcip --hashlimit-name hosts --log-prefix "LOGDROPPED2:dropped!!" --log-level 6
+$iptablesPATH -A LOGGING2 -j LOG -m hashlimit --hashlimit 1/sec --hashlimit-mode dstip,dstport,srcip,srcport --hashlimit-name hosts --log-prefix "LOGDROPPED2:dropped!!" --log-level 6
 $iptablesPATH -A LOGGING2 -j DROP
 
 # Accept the packets that are related to the connectins established by the server 
