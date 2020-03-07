@@ -1,5 +1,6 @@
 ## 1 - Description :
-The objective of this small project is to build a **Linux firewall** (On Virtual Machines) and test it.
+The objective of this small project is to build a **Linux firewall** (On Virtual Machines using [iptables](https://linux.die.net/man/8/iptables)) and test it. The following figure demonstrates the lab environment.
+![Alt text](https://github.com/0xb1tByte/LinuxFirewall/blob/master/diagram.png)
 
 ## 2 - References :
 ### 2.1 - VMWARE References:
@@ -30,7 +31,6 @@ The objective of this small project is to build a **Linux firewall** (On Virtual
 
 
 ## 3 - Note: 
-Scripts/Code/Documents ..etc will be uploaded after submitting the project to the instructor to avoid cheating
-
+- **Part5.sh** of this project is not completed yet!
 
 
